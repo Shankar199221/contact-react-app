@@ -1,0 +1,23 @@
+.App {
+  background-color: white;
+  height: 100vh;
+  margin:1rem;
+  -webkit-box-shadow: -1px 0px 5px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 5px 6px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 5px 6px rgba(0,0,0,0.75);
+}
+.row {
+  height: 100vh;
+  display: flex;
+}
+.row_left {
+  background: rgb(244,0,0);
+  background: linear-gradient(180deg, rgba(244,0,0,1) 0%, rgba(245,73,0,0.7035189075630253) 0%, rgba(245,0,31,0.39539565826330536) 63%, rgba(255,0,206,0.5354516806722689) 100%);
+  width: 40px;
+}
+.row_right {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  
+}
